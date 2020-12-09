@@ -35,7 +35,7 @@ public class Producer {
 		
 		template.convertAndSend(topic_exchange, routing_key, registerStatus);
 		
-		return "Registration success!!";
+		return "Registration success!!!!!!!";
 	}
 
 }
